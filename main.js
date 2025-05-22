@@ -9,9 +9,11 @@ function Holafuncion() {
   hoas.innerHTML = "Holas:" + a
 }
 function upgrade() {
-  a -= Cost
-  hoas.innerHTML = "Holas:" + a
-  iwannaplusu + 1
-  Cost += Cost/2
-  fuku.innerHTML = "i'm a button that upgrades u and i have a cost of:" + Cost
+  if(a >= 100){
+    a -= Cost
+    hoas.innerHTML = "Holas:" + a
+    iwannaplusu + 1
+    Cost += Cost/2
+   fuku.innerHTML = "i'm a button that upgrades u and i have a cost of:" + Cost
+  }
 }
