@@ -9,7 +9,9 @@ var bruh = document.getElementById("bruh")
 
 function Holafuncion() {
   a += iwannaplusu
-  a += immorelittleeverysecond
+  if(immorelittleeverysecond >= 0){
+    a += immorelittleeverysecond
+  }
   hoas.innerHTML = "Holas:" + a
 }
 function upgrade() {
