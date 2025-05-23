@@ -2,14 +2,14 @@ var a = 1
 var iwannaplusu = 1
 var immorelittleeverysecond
 var Cost = 100
-var seconds = 1000
+var seconds = 5000
 var hoas = document.getElementById("hello")
 var fuku = document.getElementById("fuku")
 var bruh = document.getElementById("bruh")
 
 function Holafuncion() {
   a += iwannaplusu
-  a +=
+  a += immorelittleeverysecond
   hoas.innerHTML = "Holas:" + a
 }
 function upgrade() {
@@ -23,8 +23,8 @@ function upgrade() {
   }
 }
 function whyimdointhis() {
-  immorelittleeverysecond += iwannaplusu
-  bruh.innerHTML = "Im a text that shows how many clicks you do" +immorelittleeverysecond
+  immorelittleeverysecond += iwannaplusu 
+  bruh.innerHTML = "Im a text that shows how many clicks you do" + immorelittleeverysecond
   
 }
 window.setInterval(secondfuk(),seconds)
