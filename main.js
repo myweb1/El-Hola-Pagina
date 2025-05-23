@@ -24,7 +24,7 @@ function upgrade() {
 }
 function whyimdointhis() {
   immorelittleeverysecond += iwannaplusu
-  bruh.innerHTML = "Im a text that shows how many clicks you do"
+  bruh.innerHTML = "Im a text that shows how many clicks you do" +immorelittleeverysecond
   
 }
 window.setInterval(secondfuk(),seconds)
