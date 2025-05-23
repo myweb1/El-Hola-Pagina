@@ -5,6 +5,7 @@ var Cost = 100
 var seconds = 1000
 var hoas = document.getElementById("hello")
 var fuku = document.getElementById("fuku")
+var bruh = document.getElementById("bruh")
 
 function Holafuncion() {
   a += iwannaplusu
@@ -23,6 +24,7 @@ function upgrade() {
 }
 function whyimdointhis() {
   immorelittleeverysecond += iwannaplusu
+  bruh.innerHTML = "Im a text that shows how many clicks you do"
   
 }
 window.setInterval(secondfuk(),seconds)
