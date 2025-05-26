@@ -9,8 +9,13 @@ var bruh = document.getElementById("bruh")
 
 function Holafuncion() {
   a += iwannaplusu
+  print(a)
+  print(iwannaplusu)
   if(immorelittleeverysecond >= 0){
     a += immorelittleeverysecond
+    print(a)
+    print(iwannaplusu)
+    print(immorelittleeverysecond)
   }
   hoas.innerHTML = "Holas:" + a
 }
@@ -31,12 +36,14 @@ function upgrade() {
 function whyimdointhis() {
   immorelittleeverysecond += iwannaplusu 
   bruh.innerHTML = "Im a text that shows how many clicks you do" + immorelittleeverysecond
+  print(immorelittleeverysecond)
   
 }
 window.setInterval(secondfuk(),seconds)
 function secondfuk( ){ 
   if (immorelittleeverysecond >= 1) {
     immorelittleeverysecond -= 1
+    print(immorelittleeverysecond)
   } 
   else (immorelittleeverysecond <= 0); 
     
