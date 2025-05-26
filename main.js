@@ -22,6 +22,10 @@ function upgrade() {
     seconds += seconds/2
     Cost += Cost/2
    fuku.innerHTML = "i'm a button that upgrades u and i have a cost of:" + Cost
+   print(a)
+   print(iwannaplusu)
+   print(seconds)
+   print(cost)
   }
 }
 function whyimdointhis() {
@@ -31,5 +35,11 @@ function whyimdointhis() {
 }
 window.setInterval(secondfuk(),seconds)
 function secondfuk( ){ 
-  immorelittleeverysecond -= 1
+  if (immorelittleeverysecond >= 1) {
+    immorelittleeverysecond -= 1
+  } 
+  else (immorelittleeverysecond <= 0); 
+    
+  
+  
 }
